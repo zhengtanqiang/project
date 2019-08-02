@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/add',function(){
 	echo "这是第一个";
 });
+Route::get("/insert",function(){
+	echo "第二模块";
+});
